@@ -1,0 +1,15 @@
+
+
+div.ImageFrame {
+  position: absolute;
+  background-color: white;
+  left: 33%;
+  width: 100px;
+}
+
+
+img.FrameImage {
+  height: 350px;
+  width: 700px;
+  display: none;
+}
