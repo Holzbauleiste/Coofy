@@ -1,7 +1,18 @@
 body {
   background-color: lightblue;
+  margin:0;
+  padding:0;
+  height: 100%;
+}
+
+div.header {
+  position: relative;
+  height: 50px;
+  background-color: white;
+
 
 }
+
 
 
 div.Screenplay {
