@@ -1,6 +1,25 @@
-div.ldBar {
+div.status {
+  position: relative;
+  display: inline-block;
+  size: 0px;
 }
 
 .ldBar-label {
   display: none;
+}
+
+a.heading{
+  display: inline-block;
+  font-size: 44px;
+  margin-left: 8px;
+  margin-right: 20px;
+}
+
+
+div.header {
+  position: relative;
+  height: auto;
+  background-color: white;
+
+
 }

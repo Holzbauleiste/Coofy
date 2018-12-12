@@ -1,46 +1,66 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <!-- Iclude Javascript -->
-    <script src="JScript/loading-bar-lib.js"></script>
-    <script src="JScript/main.js"></script>
-    <script src="JScript/Slider.js"></script>
+    <head>
+        <!-- Iclude Javascript -->
+        <script src="JScript/loading-bar-lib.js"></script>
+        <script src="JScript/main.js"></script>
+        <script src="JScript/Slider.js"></script>
+        <script src="JScript/Popup.js"></script>
 
-    <!-- Include CSS -->
-    <link rel="stylesheet" href="CSS/loading-bar-lib.css">
-    <link rel="stylesheet" href="CSS/main.css">
-    <link rel="stylesheet" href="CSS/header.css">
-    <link rel="stylesheet" href="CSS/Slideshow.css">
+        <!-- Include CSS -->
+        <link rel="stylesheet" href="CSS/loading-bar-lib.css">
+        <link rel="stylesheet" href="CSS/main.css">
+        <link rel="stylesheet" href="CSS/header.css">
+        <link rel="stylesheet" href="CSS/Slideshow.css">
+        <link rel="stylesheet" href="CSS/Popup.css">
 
-    <meta charset="utf-8">
-    <title>Scoofy</title>
-  </head>
+        <meta charset="utf-8">
+        <title>Scoofy</title>
+        </head>
+    <body>
+        <div class="PopupWindow" id="Popup">
 
-  <body>
-    <div class="header">
-        <div class="ldBar" data-type="fill"
-        data-fill-dir="ltr"
-        data-value="54"
-        data-fill-background-extrude="-1"
-        data-stroke-width="0"
-        data-img="Assets/Images/loaded.png"
-        data-img-size="520, 50">
-      </div>
-    </div>
-
-    <hr align="left" size="2px" color="Black">
+            <div class="PopupContent" id="Popup-Content">
+                <div class="Popup-Text">
+                    <p class="popupfont">Hey Hallo Und Herzlich willkommen zu Scoofy</p>
+                    <p class="popupfont">Fick Dich!</p>
+                </div>
+                <div class="Popup-Media">
+                    <img src="Assets/Images/Avatar2.png">
+                </div>
+            </div>
+        </div>
 
 
-    <h1>Welcome To Scoofy</h1>
-    <button type="button" name="->Right Here<-" onclick="Next()">Click Me</button>
+        <div class="header">
+            <a class="heading">scoofy</a>
+            <div class="status">
+                <div class="ldBar"
+                id = "loadingBar"
+                data-type="fill"
+                data-fill-dir="ltr"
+                data-value="0"
+                data-fill-background-extrude="-1"
+                data-stroke-width="0"
+                data-img="Assets/Images/loaded.png"
+                data-img-size="847, 56"></div>
+            </div>
+        </div>
 
-    <div class="ImageFrame">
-      <img class="FrameImage" src="Assets/Images/Digital1.jpg">
-      <img class="FrameImage" src="Assets/Images/Digital2.jpg">
-      <img class="FrameImage" src="Assets/Images/Digital3.jpg">
-      <img class="FrameImage" src="Assets/Images/Digital4.jpg">
-      <img class="FrameImage" src="Assets/Images/Industrie.jpg">
-      <img class="FrameImage" src="Assets/Images/Natur.jpg">
-    </div>
-  </body>
+        <hr align="left" size="2px" color="Black">
+
+
+        <h1>Welcome To Scoofy</h1>
+        <button type="button" name="->Right Here<-" onclick="Next()">Click Me</button>
+        <button type="button" " onclick="SetBar()">Click Me</button>
+
+        <div class="ImageFrame">
+            <img class="FrameImage" src="Assets/Images/Digital1.jpg">
+            <img class="FrameImage" src="Assets/Images/Digital2.jpg">
+            <img class="FrameImage" src="Assets/Images/Digital3.jpg">
+            <img class="FrameImage" src="Assets/Images/Digital4.jpg">
+            <img class="FrameImage" src="Assets/Images/Industrie.jpg">
+            <img class="FrameImage" src="Assets/Images/Natur.jpg">
+        </div>
+    </body>
 </html>

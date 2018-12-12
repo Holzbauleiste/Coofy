@@ -1,0 +1,42 @@
+
+
+div.PopupWindow {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0, 0.4);
+  animation: animatetop 3s;
+}
+.Popup-Media {
+    display: block;
+    position: relative;
+    margin 100 auto;
+    left: 20%;
+}
+
+
+.Popup-Text {
+    position: relative;
+    color: white;
+    font-size: 20px;
+}
+
+div.PopupContent {
+
+  background-color: #444444;
+  margin: 15% auto;
+  padding: 150px;
+  border: 1px solid #888;
+  width: 35%;
+  height: 17%;
+}
+
+
+@keyframes animatetop {
+  from { opacity: 0}
+  to { opacity: 1}
+}
